@@ -23,11 +23,16 @@
 .section-title-0{
     display: flex;
     margin: 50px;
-    justify-content: space-between;
+    padding: 30px 200px 30px 200px;
 }
 .section-title-0 img{
 height: 600px;
 width: 500px;
+}
+.section-title-0 .description{
+ margin-top: 200px;
+ margin-bottom: 10px;
+ font-size: 50px;
 }
 .section-title{
     background-image: url('images/watch.png');
