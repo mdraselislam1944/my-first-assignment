@@ -59,7 +59,7 @@ width: 500px;
     margin-bottom: 10px;
 }
 .overlap{
-    background-image:linear-gradient(to right,rgba(114, 215, 243, 0.9) 30%,rgba(0,0,0,0.5)), url('images/watch.png');
+    background-image:url(images/gradient1.png), url('images/watch.png');
     height: 30vh;
 }
 .section-title .section-sub-title
