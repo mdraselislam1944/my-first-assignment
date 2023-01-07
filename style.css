@@ -11,7 +11,7 @@
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 50px;
-    color: white;
+    /* color: white; */
     text-align: right; 
 }
 .heading-title-1{
@@ -19,6 +19,7 @@
     padding: 20px 20px 20px 20px;
     float: right;
     width: 500px;
+    color: white;
 }
 .heading_background .btn-title{
     background-color:white;
