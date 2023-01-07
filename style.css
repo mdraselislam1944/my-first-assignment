@@ -6,7 +6,7 @@
 }
 /* heading style */
 .heading_background{
-    background-image: url(images/banner/banner3.png);
+    background-image: url("./images/banner/banner3.png");
     height: 500px;
     background-size: 100% 100%;
     position: relative;
@@ -59,7 +59,7 @@ width: 500px;
     margin-bottom: 10px;
 }
 .overlap{
-    background-image:url(images/gradient1.png), url('images/watch.png');
+    background-image:url("./images/gradient1.png"), url("./images/watch.png");
     height: 30vh;
 }
 .section-title .section-sub-title
