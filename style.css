@@ -43,7 +43,6 @@ width: 500px;
  font-size: 50px;
 }
 .section-title{
-    background-image: url('images/watch.png');
     background-repeat: no-repeat;
      border-radius: 10px;
      background-size: 100% 100%;
@@ -51,9 +50,14 @@ width: 500px;
      margin: 50px 20% 50px 20%;
      color: white;
 }
+.overlap{
+    background-image:linear-gradient(to right,rgba(114, 215, 243, 0.9) 30%,rgba(0,0,0,0.5)), url('images/watch.png');
+    height: 30vh;
+}
 .section-title .section-sub-title
 {
     margin-left: 30px;
+    padding-top: 10px;
 }
 .section-title button{
     background-color:white;
@@ -61,6 +65,7 @@ width: 500px;
     color:blue;
     border-radius: 5px;
     border-style: none;
+    margin-top: 20px;
 }
 .title2{
     display: flex;
