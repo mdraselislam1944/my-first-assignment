@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 /* heading style */
 .heading_background{
@@ -39,7 +40,7 @@ width: 500px;
 }
 .section-title-0 .description{
  margin-top: 200px;
- margin-bottom: 10px;
+ margin-bottom: 20px;
  font-size: 50px;
 }
 .section-title{
@@ -49,6 +50,13 @@ width: 500px;
      height: 250px;
      margin: 50px 20% 50px 20%;
      color: white;
+}
+.description-point{
+    margin-top: 20px;
+}
+.description-point li{
+    list-style: none;
+    margin-bottom: 10px;
 }
 .overlap{
     background-image:linear-gradient(to right,rgba(114, 215, 243, 0.9) 30%,rgba(0,0,0,0.5)), url('images/watch.png');
@@ -75,7 +83,18 @@ width: 500px;
     justify-content: space-between;
     
 }
-
+.section-title-4{
+    display: flex;
+}
+.sub-title-4 img{
+ width: 300px;
+ height: 300px;
+ margin: 0 50px 0 200px;
+}
+.sub-title-4 p{
+    margin-top: 20px;
+  margin-right: 250px;
+}
 /* footer content */
 .footer-background
 {
